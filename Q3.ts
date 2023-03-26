@@ -16,4 +16,3 @@ console.log(PersonName1.split(' ').map(word => word.charAt(0).toUpperCase() + wo
 
 //in this title case we split the array by space then using map funtion, itreate bothwords by our conditions and using the join function 
 //combine the both split words in one
- 
