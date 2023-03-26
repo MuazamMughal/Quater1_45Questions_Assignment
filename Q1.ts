@@ -1,0 +1,1 @@
+// yes i am successfully Installed Node.js, TypeScript and VS Code on my personal computer
