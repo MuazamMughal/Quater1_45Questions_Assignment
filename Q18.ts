@@ -14,10 +14,33 @@ Seeing the World: Think of at least five places in the world you’d like to vis
 //----------------------------------------------------------------------------------------------------------------------------
 //Store the locations in a array. Make sure the array is not in alphabetical order.
 let places = ["Karachi","Islamabad","Makka","canada","UAE"]
-// Print your array in its original order.
-console.log(`the original order of the array${places}`)
-// Print your array in alphabetical order without modifying the actual list.
-let ModiPlaces = places;
-console.log(ModiPlaces.sort)
-//Show that your array is still in its original order by printing it.
-console.log()
+
+console.log("Original order: ", places);
+
+
+let sortedPlaces = places.slice().sort();
+
+console.log("Sorted order: ", sortedPlaces);
+
+
+console.log("Original order (again): ", places);
+
+let reverseSortedPlaces = places.slice().sort().reverse();
+
+console.log("Reverse sorted order: ", reverseSortedPlaces);
+
+console.log("Original order (again): ", places);
+
+places.reverse();
+
+console.log("Reversed order: ", places);
+
+places.reverse();
+
+places.sort();
+
+console.log("Sorted order: ", places);
+
+places.sort().reverse();
+
+console.log("Reverse sorted order: ", places);
