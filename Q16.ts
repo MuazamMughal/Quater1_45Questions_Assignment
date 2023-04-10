@@ -50,5 +50,6 @@ guestList2.forEach(guest => {
 
 });
 
-export default guestList2
+export default guestList2;
+
 

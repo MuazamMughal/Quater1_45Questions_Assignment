@@ -10,7 +10,8 @@ You’ll have to think of someone else to invite.
 */
 
 // Create an array of guests
-const guestList1: string[] = ["Albert Einstein", "Oprah Winfrey", "Leonardo da Vinci","Imran Khan"];
+export const guestList0: string[] = ["Albert Einstein", "Oprah Winfrey", "Leonardo da Vinci","Imran Khan"];
+let guestList1 =  guestList0
 
 console.log(`this is the original guest list ${guestList1}`)
 
